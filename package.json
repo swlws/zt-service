@@ -1,0 +1,54 @@
+{
+  "name": "zt-service",
+  "version": "1.0.0",
+  "description": "service",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swlws/zt-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swlws/zt-service/issues"
+  },
+  "homepage": "https://github.com/swlws/zt-service#readme",
+  "dependencies": {
+    "@koa/bodyparser": "^6.1.0",
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^15.5.0",
+    "dotenv": "^17.4.2",
+    "koa": "^3.2.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-logger": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/koa": "^3.0.3",
+    "@types/koa__cors": "^5.0.1",
+    "@types/koa__router": "^12.0.5",
+    "@types/koa-bodyparser": "^4.3.13",
+    "@types/koa-logger": "^3.1.5",
+    "@types/node": "^25.9.2",
+    "@types/supertest": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.60.1",
+    "@typescript-eslint/parser": "^8.60.1",
+    "eslint": "^10.4.1",
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
