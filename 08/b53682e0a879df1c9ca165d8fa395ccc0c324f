@@ -1,0 +1,15 @@
+.claude/skills/koa-dev-skill/references/add-domain-checklist.md
+  ai_agent 1-60
+.claude/skills/koa-dev-skill/references/learnings.md
+  ai_agent 1-30
+.claude/skills/koa-dev-skill/references/templates.md
+  ai_agent 1-109
+.claude/skills/koa-dev-skill/SKILL.md
+  ai_agent 1-145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "08b53682e0a879df1c9ca165d8fa395ccc0c324f",
+  "prompts": {}
+}
