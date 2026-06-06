@@ -1,7 +1,7 @@
-src/routes/index.ts
-  ai_agent 1-6,8,14,16
 src/interfaces/user.interface.ts
   ai_agent 1-39
+src/routes/index.ts
+  ai_agent 1-6,8,14,16
 src/routes/user.route.ts
   ai_agent 1-6,8,12-14,16
 src/services/user.service.ts
